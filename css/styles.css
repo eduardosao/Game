@@ -366,11 +366,11 @@
   max-width: 83%;
 }
 
-header nav
+/* header nav
 {
     background-image: url(../IMG/Fundo.png); 
     background-size: cover;
-}
+} */
 
 body{
   background-color: rgba(0, 0, 0, 0.123);

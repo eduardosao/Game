@@ -31,7 +31,7 @@
 }
 
 #navbar a {
-  color: #f37d7d;
+  color: #FFFF;
 }
 
 #navbar a:hover {
@@ -427,3 +427,70 @@ body{
     #cboxNext:hover{background-position:-50px -25px;}
     #cboxClose{position:absolute; bottom:0; right:0; background:url(../img/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
     #cboxClose:hover{background-position:-25px -25px;} 
+
+    .clearfix::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+    
+    .page-section {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+    
+    .intro {
+      position: relative;
+    }
+    
+    @media (min-width: 992px) {
+      .intro .intro-img {
+        width: 75%;
+        float: right;
+      }
+      .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+      }
+      .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+    @media (min-width: 1200px) {
+      .intro .intro-text {
+        width: 45%;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+      }
+      .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+      }
+      .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 50vw;
+      }
+    }
+    
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .rounded {
+      border-radius: 0.25rem !important;
+    }
